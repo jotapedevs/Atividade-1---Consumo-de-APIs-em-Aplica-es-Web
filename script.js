@@ -29,5 +29,5 @@ function toggleTheme() {
     }
 }
 
-// Adiciona o evento de clique ao botão de troca de tema
+
 document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
