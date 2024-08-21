@@ -1,32 +1,32 @@
-/* Reset básico para garantir consistência entre navegadores */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilização do corpo */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff; /* Fundo azul claro padrão */
-    color: #333; /* Cor padrão do texto */
+    background-color: #f0f8ff; 
+    color: #333; 
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    overflow: auto; /* Permite rolagem se necessário */
-    transition: background-color 0.3s, color 0.3s; /* Transição suave para o tema */
+    overflow: auto; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
-/* Título */
+
 h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
 }
 
-/* Botão */
+
 button {
     background-color: #ff4500;
     color: white;
@@ -43,35 +43,35 @@ button:hover {
     background-color: #e03e00;
 }
 
-/* Container da imagem */
+
 .image-container {
     width: 100%;
     max-width: 500px;
-    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+    overflow: hidden; 
     margin-bottom: 20px;
 }
 
-/* Imagem */
+
 img {
     width: 100%;
-    height: auto; /* Mantém a proporção da imagem */
+    height: auto; 
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Rodapé */
+
 footer {
-    margin-top: auto; /* Garante que o rodapé esteja no fundo da página */
+    margin-top: auto; 
     text-align: center;
     padding: 10px 20px;
-    background-color: #ff4500; /* Cor laranja do botão */
+    background-color: #ff4500; 
     color: white;
     width: 100%;
     position: relative;
-    font-size: 0.9rem; /* Tamanho da fonte ajustado para o rodapé */
+    font-size: 0.9rem; 
 }
 
-/* Botão de troca de tema */
+
 #theme-toggle {
     position: fixed;
     top: 10px;
@@ -87,7 +87,7 @@ footer {
     transition: opacity 0.3s ease;
 }
 
-/* Tema claro */
+
 body.light-theme {
     background-color: #ffffff; /* Azul claro */
     color: #333;
@@ -101,7 +101,7 @@ body.light-theme {
     opacity: 0;
 }
 
-/* Tema escuro */
+
 body.dark-theme {
     background-color: #000000; /* Fundo escuro */
     color: #f0f8ff;
